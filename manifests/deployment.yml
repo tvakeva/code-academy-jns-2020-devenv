@@ -89,7 +89,7 @@ spec:
           image: "codeacademy2020registerantti.azurecr.io/codeacademy2020libraryservice"
           env:
             - name: POSTGRES_USER
-              value: "postgres"
+              value: "postgres@codeacademy2020postgresantti"
             - name: POSTGRES_PASS
               value: "password"
             - name: POSTGRES_HOST
